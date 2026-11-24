@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Icon from '../components/Icon.astro';
+import { profile } from '../data/site';
+import { formations } from '../data/formation';
+---
+<BaseLayout title="À propos" description="Présentation et formation d’Ethan GIRAUD : BTS SIO SISR, marketing international, BTS NDRC et baccalauréat scientifique." current="/a-propos/">
+  <PageHeader icon="user" label="À propos" title="Mon profil" description="Je suis Ethan GIRAUD, étudiant en deuxième année de BTS Services Informatiques aux Organisations, option SISR." />
+  <section class="shell content-section about-grid" aria-label="Présentation et formation actuelle">
+    <div class="surface-card about-profile"><span class="overline">Présentation</span><h2>Un parcours entre commerce et informatique</h2><p>Après des formations en relation client et en marketing, je suis aujourd’hui en BTS SIO option SISR. Ce portfolio présente mes expériences, mes projets techniques et ma veille.</p><a class="inline-link" href="/experience/">Voir mon expérience <Icon name="arrowUp" size={16} /></a></div>
+    <div class="surface-card formation-card"><span class="feature-icon"><Icon name="book" /></span><span class="overline">Formation actuelle</span><h2>BTS SIO · option SISR</h2><p>Faculté des métiers de l’Essonne · 2025–2027</p><span class="info-tag">En cours</span></div>
+  </section>
+  <section class="shell content-section formation-section" aria-labelledby="formation-title"><div class="section-head"><div><span class="overline">Études</span><h2 id="formation-title">Parcours de formation</h2></div><p>Les étapes de ma formation, de 2020 à aujourd’hui.</p></div><div class="timeline formation-timeline">{formations.map(item => <article class="timeline-item"><span class="timeline-point" aria-hidden="true"></span><div class="surface-card formation-timeline-card"><div class="formation-timeline-top"><span class="feature-icon"><Icon name="book" /></span><div><h3>{item.title}</h3>{item.school && <p>{item.school}</p>}</div><span class="formation-period">{item.period}</span></div>{item.note && <span class="info-tag">{item.note}</span>}</div></article>)}</div></section>
+  <section class="shell content-section about-skills-link"><div><span class="overline">Savoir-faire</span><h2>Mes compétences techniques</h2><p>Les outils et pratiques liés à mes projets et expériences sont réunis sur une page dédiée.</p></div><a class="button button-outline" href="/competences/">Voir les compétences <Icon name="arrowUp" size={17} /></a></section>
+  <section class="shell content-section cv-strip"><div><span class="overline">Document</span><h2>Curriculum vitae</h2><p>Le CV sera disponible ici après son ajout.</p></div>{profile.cv ? <a class="button button-primary" href={profile.cv} download>Télécharger mon CV <Icon name="file" size={17} /></a> : <span class="info-tag">CV à venir</span>}</section>
+</BaseLayout>

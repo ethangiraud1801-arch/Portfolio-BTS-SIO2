@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Icon from '../components/Icon.astro';
+import ToolBadge from '../components/ToolBadge.astro';
+import { competenceGroups } from '../data/competences';
+import { technoclicTools } from '../data/experience';
+---
+<BaseLayout title="Compétences" description="Compétences techniques d’Ethan GIRAUD en systèmes, réseaux, journalisation et services informatiques." current="/competences/">
+  <PageHeader icon="server" label="Compétences" title="Compétences techniques" description="Des pratiques et technologies rencontrées dans mes projets et mes expériences professionnelles." />
+  <section class="shell content-section skills-section" aria-labelledby="practices-title">
+    <div class="section-head"><div><span class="overline">Savoir-faire</span><h2 id="practices-title">Domaines techniques</h2></div><p>Les groupes ci-dessous reprennent les activités et technologies que j’ai décrites dans ce portfolio.</p></div>
+    <div class="skills-grid">{competenceGroups.map(group => <article class="surface-card skill-card"><div class="skill-card-head"><span class="feature-icon"><Icon name={group.icon} /></span><h3>{group.title}</h3></div><p>{group.description}</p><ul class="skill-list">{group.skills.map(skill => <li>{skill}</li>)}</ul></article>)}</div>
+  </section>
+  <section class="shell content-section skills-tools-section" aria-labelledby="tools-title"><div class="section-head"><div><span class="overline">En situation professionnelle</span><h2 id="tools-title">Outils utilisés chez Technoclic</h2></div><p>Chaque nom peut être accompagné d’un logo. La liste reste lisible tant qu’aucune image n’a été ajoutée.</p></div><div class="surface-card skills-tools-card"><div class="tool-list">{technoclicTools.map(tool => <ToolBadge tool={tool} />)}</div><a class="inline-link" href="/experience/">Voir l’expérience Technoclic <Icon name="arrowUp" size={16} /></a></div></section>
+</BaseLayout>

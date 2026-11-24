@@ -1,0 +1,4 @@
+[
+  { "name": "CERT-FR", "url": "https://www.cert.ssi.gouv.fr/feed/", "category": "Cybersécurité" },
+  { "name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "category": "Réseaux & cybersécurité" }
+]

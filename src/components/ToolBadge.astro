@@ -1,0 +1,7 @@
+---
+import type { Tool } from '../data/experience';
+interface Props { tool: Tool }
+const { tool } = Astro.props;
+const monogram = tool.name.split(/\s+/).map(word => word[0]).slice(0, 2).join('').toUpperCase();
+---
+<span class="tool-badge"><span class="tool-badge-mark" aria-hidden="true">{tool.logo ? <img src={tool.logo} alt="" width="22" height="22" loading="lazy" decoding="async" /> : monogram}</span><span>{tool.name}</span></span>

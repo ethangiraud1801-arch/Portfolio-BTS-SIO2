@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Icon from '../components/Icon.astro';
+import ToolBadge from '../components/ToolBadge.astro';
+import { experiences } from '../data/experience';
+---
+<BaseLayout title="Expérience" description="Parcours professionnel d’Ethan GIRAUD : Technoclic, ProTravaux et Showrooms3D." current="/experience/">
+  <PageHeader icon="briefcase" label="Expérience" title="Parcours professionnel" description="Mes expériences professionnelles, de la relation client au support informatique et à la maintenance réseau." />
+  <section class="shell content-section experience-section" aria-label="Parcours professionnel">
+    {experiences.length > 0 ? <div class="timeline">{experiences.map(item => <article class="timeline-item"><span class="timeline-point" aria-hidden="true"></span><div class="surface-card experience-card"><div class="experience-card-top"><span class="feature-icon"><Icon name="briefcase" /></span><div><h2>{item.organisation}</h2>{item.role && <p>{item.role}</p>}{item.location && <p>{item.location}</p>}</div></div><div class="experience-period"><Icon name="clock" size={17} /><span>{item.period}</span></div>{item.description && <p>{item.description}</p>}<h3 class="mission-heading">Missions</h3><ul class="mission-list">{item.missions.map(mission => <li>{mission}</li>)}</ul>{item.tools && item.tools.length > 0 && <div class="experience-tools"><h3 class="mission-heading">Outils maîtrisés</h3><div class="tool-list">{item.tools.map(tool => <ToolBadge tool={tool} />)}</div></div>}</div></article>)}</div> : <div class="timeline"><article class="timeline-item"><span class="timeline-point" aria-hidden="true"></span><div class="surface-card experience-card experience-empty"><h2>Expériences à renseigner</h2><p>Cette section accueillera les organisations, périodes et missions confirmées.</p></div></article></div>}
+  </section>
+</BaseLayout>

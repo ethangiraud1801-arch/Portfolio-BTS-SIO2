@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Icon from '../components/Icon.astro';
+import { projects } from '../data/site';
+---
+<BaseLayout title="Projets" description="Projets d’Ethan GIRAUD en BTS SIO SISR : Wi-Fi et FreeRADIUS, centralisation de logs ELK, migration vers Office 365." current="/projets/">
+  <PageHeader icon="folder" label="Projets" title="Mes réalisations" description="Trois projets sont présentés ici. Trois autres emplacements seront complétés ultérieurement ; les documentations PDF seront ajoutées au fur et à mesure." />
+  <section class="shell content-section projects-grid" aria-label="Liste des six projets">{projects.map((project, index) => <article id={project.id} class="surface-card project-card"><div class="project-top"><span class="feature-icon"><Icon name="folder" /></span><span class="project-index">{String(index + 1).padStart(2, '0')} / 06</span></div><span class="overline">{project.isPlaceholder ? 'À venir' : 'Projet présenté'}</span><h2>{project.title}</h2><p>{project.summary}</p>{project.skills.length > 0 && <ul class="tags">{project.skills.map(skill => <li>{skill}</li>)}</ul>}<div class="project-bottom">{project.pdf ? <a class="inline-link" href={project.pdf} download>Télécharger la documentation PDF <Icon name="file" size={17} /></a> : <div class="download-pending"><button type="button" disabled>Télécharger la documentation PDF</button><span>Documentation à venir</span></div>}</div></article>)}</section>
+</BaseLayout>

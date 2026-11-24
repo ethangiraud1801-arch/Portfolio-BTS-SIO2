@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Icon from '../components/Icon.astro';
+import { profile } from '../data/site';
+---
+<BaseLayout title="Contact" description="Coordonnées professionnelles et contact d’Ethan GIRAUD." current="/contact/">
+  <PageHeader icon="mail" label="Contact" title="Échangeons" description="Pour me contacter à propos de mon parcours ou de mes projets, écrivez-moi directement par e-mail." />
+  <section class="shell content-section contact-grid"><div class="surface-card contact-primary"><span class="feature-icon"><Icon name="mail" /></span><span class="overline">Par e-mail</span><h2>Un message direct</h2><p>{profile.email || 'Adresse e-mail à renseigner'}</p>{profile.email ? <a class="button button-primary" href={`mailto:${profile.email}`}>Envoyer un e-mail <Icon name="arrowUp" size={17} /></a> : <span class="info-tag">Adresse e-mail à renseigner</span>}</div><div class="contact-side"><div class="surface-card social-card"><span class="overline">Liens professionnels</span><h2>Retrouvez-moi en ligne</h2>{profile.linkedin ? <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <Icon name="arrowUp" size={17} /></a> : <p>LinkedIn · lien à renseigner</p>}{profile.github ? <a href={profile.github} target="_blank" rel="noopener noreferrer">GitHub <Icon name="arrowUp" size={17} /></a> : <p>GitHub · lien à renseigner</p>}</div></div></section>
+</BaseLayout>

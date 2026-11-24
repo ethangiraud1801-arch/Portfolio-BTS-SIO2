@@ -1,0 +1,21 @@
+---
+import Icon from './Icon.astro';
+
+interface Article {
+  title: string;
+  source: string;
+  date: string;
+  summary: string;
+  url: string;
+  category: string;
+}
+interface Props { article: Article }
+const { article } = Astro.props;
+const date = new Intl.DateTimeFormat('fr-FR', { day:'numeric', month:'long', year:'numeric', timeZone:'Europe/Paris' }).format(new Date(article.date));
+---
+
+<article class="surface-card feed-card">
+  <div class="article-meta"><span>{article.source}</span><time datetime={article.date}>{date}</time><span>{article.category}</span></div>
+  <h3><a href={article.url} target="_blank" rel="noopener noreferrer">{article.title}<Icon name="arrowUp" size={19} /></a></h3>
+  <p>{article.summary}</p>
+</article>

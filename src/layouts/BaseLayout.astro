@@ -1,0 +1,39 @@
+---
+import '../styles/global.css';
+import '@fontsource-variable/manrope';
+import Icon from '../components/Icon.astro';
+
+interface Props { title: string; description: string; current: string }
+const { title, description, current } = Astro.props;
+const nav = [
+  { label: 'Accueil', href: '/' },
+  { label: 'À propos', href: '/a-propos/' },
+  { label: 'Compétences', href: '/competences/' },
+  { label: 'Expérience', href: '/experience/' },
+  { label: 'Projets', href: '/projets/' },
+  { label: 'Veille', href: '/veille/' },
+  { label: 'Contact', href: '/contact/' },
+];
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f6f8fb" />
+    <title>{title} — Ethan GIRAUD</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="/" aria-label="Ethan GIRAUD, accueil"><span class="brand-mark"><Icon name="technician" size={34} /></span><span class="brand-name">Ethan GIRAUD<small>Portfolio · BTS SIO SISR</small></span></a>
+        <nav aria-label="Navigation principale"><ul>{nav.map(item => <li><a href={item.href} aria-current={current === item.href ? 'page' : undefined}>{item.label}</a></li>)}</ul></nav>
+      </div>
+    </header>
+    <main id="contenu"><slot /></main>
+    <footer class="site-footer"><div class="shell footer-inner"><span>Ethan GIRAUD <span class="footer-muted">· BTS SIO option SISR</span></span><div><a href="/contact/">Contact</a><span>© {new Date().getFullYear()}</span></div></div></footer>
+  </body>
+</html>

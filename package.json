@@ -1,0 +1,22 @@
+{
+  "name": "ethan-giraud-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "veille:update": "node scripts/update-feeds.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "astro": "^7.4.13",
+    "fast-xml-parser": "^5.2.5",
+    "open-props": "^1.7.16"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "typescript": "^5.9.0"
+  }
+}

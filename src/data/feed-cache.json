@@ -1,0 +1,294 @@
+{
+  "updatedAt": "2026-11-24T08:23:04.703Z",
+  "articles": [
+    {
+      "title": "Probing DNS at Cloudflare",
+      "source": "Cloudflare Blog",
+      "category": "Réseaux & cybersécurité",
+      "date": "2026-11-23T14:00:00.000Z",
+      "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/"
+    },
+    {
+      "title": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques ",
+      "url": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans MongoDB (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1606/"
+    },
+    {
+      "title": "Vulnérabilité dans Microsoft Office (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1604/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Roundcube Webmail (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1602/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Synology (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des donné",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1607/"
+    },
+    {
+      "title": "Vulnérabilité dans Laravel (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1601/"
+    },
+    {
+      "title": "Vulnérabilité dans Mattermost Server (23 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-23T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1605/"
+    },
+    {
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "source": "Cloudflare Blog",
+      "category": "Réseaux & cybersécurité",
+      "date": "2026-11-20T20:24:38.000Z",
+      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/"
+    },
+    {
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "source": "Cloudflare Blog",
+      "category": "Réseaux & cybersécurité",
+      "date": "2026-11-20T20:00:45.000Z",
+      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/"
+    },
+    {
+      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+      "source": "Cloudflare Blog",
+      "category": "Réseaux & cybersécurité",
+      "date": "2026-11-20T01:58:29.000Z",
+      "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+      "url": "https://blog.cloudflare.com/nginx2root/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi). Google et Mandiant in",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Siemens Industrial Edge (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Siemens Industrial Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donnée",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Mattermost (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de séc",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache Tomcat (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/"
+    },
+    {
+      "title": "Vulnérabilité dans GitLab (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à l'intégrité des données et un déni de service.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/"
+    },
+    {
+      "title": "Vulnérabilité dans Metabase (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Metabase. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1585/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Moodle (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Tenable Security Center (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/"
+    },
+    {
+      "title": "Vulnérabilité dans KeyCloak (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Palo Alto Networks (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Moxa (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1589/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Citrix (20 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/"
+    },
+    {
+      "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+      "source": "Cloudflare Blog",
+      "category": "Réseaux & cybersécurité",
+      "date": "2026-11-19T14:00:00.000Z",
+      "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+      "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Mitel (19 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Wireshark (19 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Progress WS_FTP Server (19 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Progress WS_FTP Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/"
+    }
+  ],
+  "errors": []
+}

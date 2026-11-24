@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Icon from '../components/Icon.astro';
+import { projects } from '../data/site';
+const featuredProject = projects.find(project => project.id === 'projet-2');
+---
+<BaseLayout title="Accueil" description="Portfolio d’Ethan GIRAUD, étudiant en deuxième année de BTS SIO option SISR : systèmes, réseaux et cybersécurité." current="/">
+  <section class="home-hero shell">
+    <div class="home-hero-copy">
+      <div class="section-kicker"><span class="icon-tile"><Icon name="layers" size={19} /></span><span>Portfolio · BTS SIO SISR</span></div>
+      <h1>Ethan GIRAUD<span class="hero-rule"></span><span class="hero-subtitle">Systèmes, réseaux<br />et cybersécurité.</span></h1>
+      <p>Étudiant en deuxième année de BTS Services Informatiques aux Organisations, option SISR. Ce site réunit mes projets, mon parcours et une veille technologique.</p>
+      <div class="hero-actions"><a class="button button-primary" href="/projets/">Voir les projets <Icon name="arrowUp" size={17} /></a><a class="button button-outline" href="/a-propos/">À propos de moi <Icon name="arrow" size={17} /></a></div>
+    </div>
+    <div class="home-project-card" aria-labelledby="featured-project-title">
+      <div class="home-project-heading"><span class="overline">Mon dernier projet</span><span class="home-project-index">02 / 06</span></div>
+      <div class="home-project-art"><img src="/images/elk-stack-transparent.png" alt="Symboles Elasticsearch, Logstash et Kibana" width="1774" height="887" /></div>
+      <div class="home-project-details"><span class="home-project-type">Infrastructure réseau · Supervision</span><h2 id="featured-project-title">{featuredProject?.title}</h2><p>{featuredProject?.summary}</p></div>
+      <a class="home-project-link" href="/projets/#projet-2"><span>Voir le projet</span><Icon name="arrowUp" size={18} /></a>
+    </div>
+  </section>
+  <section class="home-section shell" aria-labelledby="explorer-title"><div class="section-head"><div><span class="overline">Explorer le portfolio</span><h2 id="explorer-title">Un aperçu de mon parcours</h2></div><p>Retrouvez mes expériences, mes projets et les publications que je suis dans ma veille.</p></div><div class="feature-grid"><a class="feature-card" href="/projets/"><span class="feature-icon"><Icon name="folder" /></span><span class="feature-number">01</span><h3>Projets</h3><p>Trois projets présentés et trois autres à venir.</p><span class="feature-link">Découvrir <Icon name="arrowUp" size={16} /></span></a><a class="feature-card" href="/experience/"><span class="feature-icon"><Icon name="briefcase" /></span><span class="feature-number">02</span><h3>Expérience</h3><p>Mon parcours chez Technoclic, ProTravaux et Showrooms3D.</p><span class="feature-link">Découvrir <Icon name="arrowUp" size={16} /></span></a><a class="feature-card" href="/veille/"><span class="feature-icon"><Icon name="radar" /></span><span class="feature-number">03</span><h3>Veille</h3><p>Une sélection de publications sur les réseaux et la cybersécurité.</p><span class="feature-link">Découvrir <Icon name="arrowUp" size={16} /></span></a></div></section>
+  <section class="home-contact shell"><div><span class="overline">Prendre contact</span><h2>Pour échanger autour de mon parcours</h2></div><a class="button button-outline" href="/contact/">Page contact <Icon name="arrowUp" size={17} /></a></section>
+</BaseLayout>
