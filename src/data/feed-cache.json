@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-11-25T17:15:43.158Z",
+  "updatedAt": "2026-11-26T16:55:44.633Z",
   "articles": [
+    {
+      "title": "Vulnérabilité dans Drupal (26 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Drupal. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Drupal indique que la vulnérabilité CVE-2026-136716 est activement exploitée.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Tenable (26 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits NetApp (26 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/"
+    },
+    {
+      "title": "Vulnérabilité dans Mattermost Server (26 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans GitLab (26 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Veeam (26 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur fournit également une mesure de contournement provisoire.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1629/"
+    },
+    {
+      "title": "Multiples vulnérabilités dans HPE Aruba Networking Airwave (26 novembre 2026)",
+      "source": "CERT-FR",
+      "category": "Cybersécurité",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Airwave. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1628/"
+    },
     {
       "title": "Introducing Search for Agents",
       "source": "Cloudflare Blog",
@@ -232,62 +288,6 @@
       "date": "2026-11-20T20:24:38.000Z",
       "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
       "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/"
-    },
-    {
-      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
-      "source": "Cloudflare Blog",
-      "category": "Réseaux & cybersécurité",
-      "date": "2026-11-20T20:00:45.000Z",
-      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
-      "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/"
-    },
-    {
-      "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
-      "source": "Cloudflare Blog",
-      "category": "Réseaux & cybersécurité",
-      "date": "2026-11-20T01:58:29.000Z",
-      "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
-      "url": "https://blog.cloudflare.com/nginx2root/"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
-      "source": "CERT-FR",
-      "category": "Cybersécurité",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi). Google et Mandiant in",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Siemens Industrial Edge (20 novembre 2026)",
-      "source": "CERT-FR",
-      "category": "Cybersécurité",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Siemens Industrial Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
-      "source": "CERT-FR",
-      "category": "Cybersécurité",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
-      "source": "CERT-FR",
-      "category": "Cybersécurité",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/"
-    },
-    {
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 novembre 2026)",
-      "source": "CERT-FR",
-      "category": "Cybersécurité",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des donnée",
-      "url": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/"
     }
   ],
   "errors": []
